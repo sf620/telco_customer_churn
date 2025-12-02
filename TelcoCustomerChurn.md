@@ -36,7 +36,7 @@ We analyse the features that are highly correlated with churn.
 - Customers on month-to-month contracts are more likely to churn than those on one- or two-year contracts.
 - Customers who pay using electronic check are more likely to churn than those who use bank transfer, credit card, or mailed check.
 
-![](Features.png)
+![](Figures/Features.png)
 
 When customers leave the company, they are asked about their reasons for leaving.
 
@@ -98,11 +98,11 @@ AUC represents the probability that the model, if given a randomly chosen positi
 
 We analyse the relative influence of each customer attribute by listing importance scores for all model features, linking them back to the patterns identified earlier in the analysis.
 
-![](FeatureImportance.png)
+![](Figures/FeatureImportance.png)
 
 Finally, we evaluate results across customer value groups, splitting customers by predicted lifetime value (it’s in the dataset). This confirms that churn signals remain accurate across all segments.
 
-![](Test_Set_Model_Evaluation_by_CLTV_Segment.png)
+![](Figures/Test_Set_Model_Evaluation_by_CLTV_Segment.png)
 
 ## Recommendations
 
