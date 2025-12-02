@@ -8,11 +8,11 @@ Machine learning project for predicting customer churn using tabular data and su
 
 ## Repository Contents
 
-TelcoCustomerChurn.ipynb — data analysis, preprocessing, training, and model evaluation notebook
+`telco_customer_churn.ipynb` — data analysis, preprocessing, training, and model evaluation notebook
 
-TelcoCustomerChurn.md — project report
+`report.md` — project report
 
-requirements.txt — minimal Python dependencies derived from notebook imports
+`requirements.txt` — minimal Python dependencies derived from notebook imports
 
 ## Quick Start
 
@@ -33,4 +33,4 @@ pip install jupyter
 jupyter notebook
 ```
 
-Open TelcoCustomerChurn.ipynb and run all cells.
+Open `telco_customer_churn.ipynb` and run all cells.
